@@ -1,0 +1,44 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.float {
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+  width: 90px;
+  height: 90px;
+  background: #e09f25;
+  padding: 5px;
+  border: 2px black solid;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 4px black;
+}
+
+.float h3 {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.float p {
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+}
+.float a {
+  font-weight: 600;
+  color: black;
+}

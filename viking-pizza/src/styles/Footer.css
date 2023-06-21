@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #121619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .footerName {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer p {
+    color: white;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer img {
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+  }

@@ -1,0 +1,152 @@
+
+.infoContatiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    background: rgb(0,0,6);
+    background: linear-gradient(0deg, rgba(0,0,6,1) 0%, rgba(10,10,17,1) 24%, rgba(57,60,60,1) 100%); 
+}
+
+.opentid {
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 8px black;
+    background: rgba(212,228,239,1);
+background: -moz-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+background: -webkit-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: linear-gradient(135deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+    height: 300px;
+    width: 250px;
+    margin-top: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.opentidContainer {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.opentid .oppettider {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.opentid .sommar {
+    font-size: 16px;
+    text-align: center;
+}
+
+.opentid .oppettidDatum {
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.familjepizza {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 8px black;
+    background: rgba(212,228,239,1);
+background: -moz-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+background: -webkit-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: linear-gradient(135deg, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+    width: 250px;
+    margin-top: 20px;
+    margin: 20px;
+    
+}
+
+.familjepizzaTitle {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.familjepizzaText {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ribbon-2 {
+  position: relative;
+  padding: 0 0.05em;
+  font-size: 2.000em;
+  margin: 45px 0 0 -0.025em;
+  line-height: 1.2em;
+  color: #e6e2c8;
+  border-radius: 0 0.156em 0.156em 0;
+  background: #e09f25;
+  box-shadow: -1px 3px 2px rgba(0,0,0,0.5);
+  z-index: 2;
+  height: 35px;
+  width: 93%;
+  align-content: center;
+  text-align: center;
+  
+}
+
+.ribbon-2:before, .ribbon-2:after {
+  position: absolute;
+  content: '';
+  display: block;
+}
+
+.ribbon-2:before {
+  width: 0.469em;
+  height: 100%;
+  padding: 0 0 0.438em;
+  top: 0;
+  left: -0.469em;
+  background: inherit;
+  border-radius: 0.313em 0 0 0.313em;
+}
+
+.ribbon-2:after {
+  width: 0.313em;
+  height: 0.313em;
+  background: rgba(0,0,0,0.35);
+  bottom: -0.313em;
+  left: -0.313em;
+  border-radius: 0.313em 0 0 0.313em;
+  box-shadow: inset -1px 2px 2px rgba(0,0,0,0.3);
+}
+
+.dricka {
+  font-size: 12px;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  vertical-align: middle;
+  color: black;
+  
+}
+
+.pizzaVariation {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 8px black;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 250px;
+    margin-top: 20px;
+    margin: 20px;
+
+}
+
+/*@media (max-width: 800px) {
+  .infoContatiner {
+    flex-direction: column;
+    justify-content: center;
+  }
+}*/
